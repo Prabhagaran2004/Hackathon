@@ -9,5 +9,5 @@ const inputSchema = new Schema({
     batchNumber: String,
     supplier: String
 });
-
+ 
 module.exports = mongoose.model('Input', inputSchema);

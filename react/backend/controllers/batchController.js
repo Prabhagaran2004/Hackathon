@@ -8,7 +8,7 @@ exports.createBatch = async (req, res) => {
         res.status(201).json(savedBatch);
     } catch (error) {
         res.status(400).json({ message: error.message });
-    }
+    } 
 };
 
 // Controller to get all produce batches

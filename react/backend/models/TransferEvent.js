@@ -14,7 +14,7 @@ const transferEventSchema = new Schema({
         latitude: Number,
         longitude: Number
     },
-    handlingConditions: String // e.g., temperature during transport
+    handlingConditions: String
 });
 
 module.exports = mongoose.model('TransferEvent', transferEventSchema);

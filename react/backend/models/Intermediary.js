@@ -15,4 +15,4 @@ const intermediarySchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('Intermediary', intermediarySchema);
+module.exports = mongoose.model('Intermediary', intermediarySchema); 

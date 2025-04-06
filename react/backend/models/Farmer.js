@@ -10,7 +10,7 @@ const farmerSchema = new Schema({
         email: String
     },
     farmLocationCoords: {
-        latitude: Number,
+        latitude: Number, 
         longitude: Number
     },
     farmSize: Number,

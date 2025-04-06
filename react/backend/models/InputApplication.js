@@ -8,4 +8,4 @@ const inputApplicationSchema = new Schema({
     applicationDate: { type: Date, required: true }
 });
 
-module.exports = mongoose.model('InputApplication', inputApplicationSchema);
+module.exports = mongoose.model('InputApplication', inputApplicationSchema); 

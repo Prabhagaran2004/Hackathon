@@ -6,8 +6,8 @@ const harvestSchema = new Schema({
     cropType: { type: String, required: true },
     quantity: String,
     harvestDate: { type: Date, required: true },
-    qualityParameters: { type: Map, of: String }, // e.g., {'moisture': '13.0%', 'grade': 'A'}
+    qualityParameters: { type: Map, of: String },
     storageConditions: String
 });
 
-module.exports = mongoose.model('Harvest', harvestSchema);
+module.exports = mongoose.model('Harvest', harvestSchema); 
